@@ -34,7 +34,7 @@ namespace ExorAIO.Champions.Veigar
                 Targets.Target.IsValidTarget(Vars.E.Range) &&
                 Vars.Menu["spells"]["e"]["combo"].GetValue<MenuBool>().Value)
             {
-                Vars.E.Cast(Vars.E.GetPrediction(Targets.Target).CastPosition.Extend(GameObjects.Player.ServerPosition, -Vars.E.Width/2));
+                Vars.E.Cast(edge ? pos.Extend(player.Position, 375);
             }
 
             /// <summary>
